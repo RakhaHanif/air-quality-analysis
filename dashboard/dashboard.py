@@ -53,7 +53,7 @@ max_date = air_df['Date'].max()
 
 with st.sidebar:
         st.header('Air Quality Data Analysis')
-        st.image('tornado.png')
+        st.image('dashboard/tornado.png')
 
         start_date, end_date = st.date_input(
             label='Select a time range :', min_value=min_date,
